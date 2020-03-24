@@ -12,7 +12,7 @@ class App < Sinatra::Base
   end
   
   post '/checkout' do
-    @checkout = NIL
+    @checkout = nil
   end
   
 end
